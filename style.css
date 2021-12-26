@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Potta One', cursive; */
+
+/* HEADER SECTION  */
+.navbar {
+  background-color: #222;
+  padding: 0 100px;
+  height: 50px;
+  z-index: 10000;
+}
+.navbar-brand {
+  color: white;
+  font-weight: 500;
+  font-family: "Potta One", cursive;
+  letter-spacing: 2px;
+}
+#navbarNav ul li a {
+  color: #fff;
+}
+.social-media-icon {
+  color: #fff;
+}
+.social-media-icon .fa {
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+.social-media-icon .fa:hover {
+  color: antiquewhite;
+}
+.banner {
+  background-image: url(image/bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner .overlay {
+  background: #171819;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+.banner-text {
+  color: #fff;
+  text-align: center;
+  padding-top: 270px;
+}
+.banner-text p {
+  color: rgb(160, 150, 150);
+}
+.banner-text h2 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 600;
+  font-size: 40px;
+}
+#timing {
+  background-color: #171819;
+}
+#timing h3,
+h5,
+h6 {
+  color: white;
+}
+#timing .left {
+  padding-right: 20px;
+  border: 2px solid #171819;
+  border-right: 2px solid rgb(136, 134, 134);
+}
+
+#timing .left h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+#timing .left h5 {
+  font-size: 20px;
+}
+#timing .left h6 {
+  color: rgb(107, 105, 105);
+}
+#timing .right p {
+  color: rgb(107, 105, 105);
+}
+#trainer h2 {
+  font-weight: 800;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 25px;
+}
+#trainer p {
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(107, 105, 105);
+}
+#trainer h5 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+  font-size: 19px;
+}
+#trainer h6 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: #222;
+}
+/* CONTACT SECTION    */
+#contact h2 {
+  font-weight: bolder;
+  font-size: xx-small;
+}
